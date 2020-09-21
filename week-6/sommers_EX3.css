@@ -1,13 +1,15 @@
+/* Thought I would use this but didn't...
 #container {
   
 }
 
-#header {
-  text-align: center;
-}
-
 #content {
   
+}
+*/
+
+#header {
+  text-align: center;
 }
 
 h3 {
@@ -17,18 +19,36 @@ h3 {
 #TopMovies {
   width: 45%;
   float: left;
-  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  padding: 10px;
+  font-family: Oswald, Verdana, Arial, sans-serif;
+  border: dashed 1px red;
+  border-radius: 15px;
 }
 
 #ThingsLearned {
   width: 45%;
   float: right;
-  font-family: 'Oswald', Verdana, Arial, sans-serif;
+  padding: 10px;
+  font-family: Oswald, Verdana, Arial, sans-serif;
+  border: dashed 1px red;
+  border-radius: 15px;
 }
 
 #footer {
-  
+    width: 100%;
+    margin-top: 60%;
+    float: right;
+    margin-bottom: 20px;
+    font-family: Oswald, Verdana, Arial, sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
 
 
